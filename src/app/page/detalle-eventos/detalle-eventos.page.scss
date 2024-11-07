@@ -1,0 +1,20 @@
+ion-content {
+  --background: #fefefe;
+}
+
+.event-title {
+  color: var(--ion-color-primary);
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.event-description {
+  color: var(--ion-color-medium);
+  font-size: 1.2rem;
+}
+
+.event-date {
+  color: var(--ion-color-primary);
+  font-size: 1.1rem;
+}

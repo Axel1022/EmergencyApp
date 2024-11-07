@@ -1,0 +1,12 @@
+/* src/app/pages/add-event/add-event.page.scss */
+ion-button.submit-button {
+  --background: var(--ion-color-primary);
+  --color: white;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+ion-input {
+  --color: var(--ion-color-dark);
+}

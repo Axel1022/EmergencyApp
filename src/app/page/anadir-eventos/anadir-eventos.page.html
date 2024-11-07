@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Registrar Evento</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/lista-eventos">Cancelar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form (ngSubmit)="addEvent()">
+    <ion-item>
+      <ion-label position="floating">Fecha</ion-label>
+      <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="event.date" name="date"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Título</ion-label>
+      <ion-input [(ngModel)]="event.title" name="title" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Descripción</ion-label>
+      <ion-textarea [(ngModel)]="event.description" name="description"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-label>Foto</ion-label>
+      <input type="file" (change)="onFileSelected($event)" accept="image/*"/>
+    </ion-item>
+    <ion-button expand="block" type="submit">Guardar Evento</ion-button>
+  </form>
+</ion-content>

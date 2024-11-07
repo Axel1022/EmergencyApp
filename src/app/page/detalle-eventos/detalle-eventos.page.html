@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Detalles del Evento</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/lista-eventos">Volver</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="event">
+  <ion-card>
+    <img [src]="event.photo"/>
+    <ion-card-header>
+      <ion-card-title>{{ event.title }}</ion-card-title>
+      <ion-card-subtitle>{{ event.date }}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      {{ event.description }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

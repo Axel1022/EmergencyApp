@@ -1,0 +1,28 @@
+ion-header {
+  --background: var(--ion-color-primary);
+  --color: white;
+}
+
+ion-title {
+  font-weight: bold;
+}
+ion-button {
+  --background: var(--ion-color-primary);
+  --background-activated: var(--ion-color-primary-shade);
+  --background-focused: var(--ion-color-primary-tint);
+  --color: white;
+}
+ion-card {
+  border: 1px solid var(--ion-color-primary);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+ion-card-header {
+  background-color: var(--ion-color-primary-tint);
+  color: var(--ion-color-dark);
+}
+
+ion-card-content {
+  color: var(--ion-color-medium);
+}
