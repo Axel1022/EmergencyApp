@@ -4,6 +4,7 @@ import { AnadirEventosPage } from './anadir-eventos.page';
 describe('AnadirEventosPage', () => {
   let component: AnadirEventosPage;
   let fixture: ComponentFixture<AnadirEventosPage>;
+  // Gary Campusano 2022-1022
 
   beforeEach(() => {
     fixture = TestBed.createComponent(AnadirEventosPage);

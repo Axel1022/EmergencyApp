@@ -6,6 +6,7 @@ describe('EventServiceService', () => {
   let service: EventServiceService;
 
   beforeEach(() => {
+    // Gary Campusano 2022-1022
     TestBed.configureTestingModule({});
     service = TestBed.inject(EventServiceService);
   });

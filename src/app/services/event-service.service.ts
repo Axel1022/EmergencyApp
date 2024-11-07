@@ -7,6 +7,7 @@ export interface Event {
   title: string;
   description: string;
   photo: string;
+  // Gary Campusano 2022-1022
 }
 
 @Injectable({

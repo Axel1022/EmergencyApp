@@ -2,11 +2,11 @@
   <ion-toolbar color="primary">
     <ion-title>Lista de Eventos</ion-title>
     <ion-buttons slot="end">
-      <ion-button expand="full" routerLink="/anadir-eventos">Nuevo Evento</ion-button>
+      <ion-button routerLink="/anadir-eventos">Agregar</ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
-
+<!--/* Gary Campusano 2022-1022 */-->
 <ion-content>
   <ion-list>
     <ion-item *ngFor="let event of events" (click)="viewEvent(event.id)">

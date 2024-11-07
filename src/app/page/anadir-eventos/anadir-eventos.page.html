@@ -1,7 +1,7 @@
 <ion-header>
-  <ion-toolbar color="primary">
+  <ion-toolbar color="primary" >
     <ion-title>Registrar Evento</ion-title>
-    <ion-buttons slot="end">
+     <ion-buttons slot="end">
       <ion-button routerLink="/lista-eventos">Cancelar</ion-button>
     </ion-buttons>
   </ion-toolbar>
@@ -10,6 +10,7 @@
 <ion-content>
   <form (ngSubmit)="addEvent()">
     <ion-item>
+    <!--/* Gary Campusano 2022-1022 */-->
       <ion-label position="floating">Fecha</ion-label>
       <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="event.date" name="date"></ion-datetime>
     </ion-item>

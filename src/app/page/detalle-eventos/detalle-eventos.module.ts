@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { DetalleEventosPageRoutingModule } from './detalle-eventos-routing.module';
 
 import { DetalleEventosPage } from './detalle-eventos.page';
-
+// Gary Campusano 2022-1022
 @NgModule({
   imports: [
     CommonModule,

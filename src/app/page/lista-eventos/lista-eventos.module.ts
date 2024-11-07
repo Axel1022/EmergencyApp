@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { ListaEventosPageRoutingModule } from './lista-eventos-routing.module';
 
 import { ListaEventosPage } from './lista-eventos.page';
+// Gary Campusano 2022-1022
 
 @NgModule({
   imports: [
